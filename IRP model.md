@@ -96,6 +96,6 @@ $$
 ### 当仓库或客户有出度时，必有入度，反之亦然
 
 $$
-\sum_{i}l^{t}_{0i}=\sum_{i}l^{t}_{i0}\quad,i\in I
+\sum_{i}l^{t}_{ji}=\sum_{i}l^{t}_{ij}\quad,i\in I
 $$
 
