@@ -58,9 +58,14 @@ int solve(Graph::Tour &sln, Graph::CoordList<> &coordList,int round,const Graph:
         // EXTEND[szx][0]: utilize initial solution.
     }
     writeFile(coordList,round);
-    lkh1(round);
+    
+    
     std::ostringstream vname;
+    vname<<"./lkh pr"<<round<<".par";
+    system(vname.str().data());
+    vname.str("");
     vname<<"./ans"<<round<<".txt";
+    //std::cout<<vname.str();
     std::freopen(vname.str().data(),"r",stdin);
     std::string s;
     int cost=0;
